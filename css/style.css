@@ -1,0 +1,94 @@
+@import url(/css/null.css);
+body {
+  padding: 30px;
+  background-color: gray;
+}
+
+.login_menu {
+  width: 60%;
+  height: 50px;
+  border-bottom: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login_menu_button {
+  font-size: 14px;
+  width: 28px;
+  height: 28px;
+}
+
+.collums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.content {
+  width: 60%;
+}
+
+.content_text {
+  font-size: 36px;
+}
+
+.content_buttons_start {
+  width: 230px;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  background-color: black;
+}
+
+.content_buttons_video {
+  width: 230px;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  background-color: transparent;
+}
+
+.money {
+  width: 40%;
+  height: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.money_block {
+  width: 230px;
+  height: 230px;
+  background-color: orangered;
+  display: -ms-grid;
+  display: grid;
+  gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 1px 0 0 0 rgb(0, 0, 0), 0 1px 0 0 rgb(0, 0, 0), 1px 1px 0 0 rgb(0, 0, 0), 1px 0 0 0 rgb(0, 0, 0) inset, 0 1px 0 0 rgb(0, 0, 0) inset;
+          box-shadow: 1px 0 0 0 rgb(0, 0, 0), 0 1px 0 0 rgb(0, 0, 0), 1px 1px 0 0 rgb(0, 0, 0), 1px 0 0 0 rgb(0, 0, 0) inset, 0 1px 0 0 rgb(0, 0, 0) inset;
+}
+.money_block:hover {
+  background-color: black;
+  color: white;
+}
+
+.money_block_logo {
+  font-size: 84px;
+}
+
+.money_block_text {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
